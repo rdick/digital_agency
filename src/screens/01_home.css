@@ -1,19 +1,23 @@
 .home-page {
     width: 100%;
-    padding-top: 15vh;
+    padding-top: 10vh;
 
 }
 
-
-.home-banner {
-    display: flex;
-    justify-content: space-around;
-
+.home-page1 {
     background: #4ABDAC;
-    height: 90vh;
+    height: 85vh;
     width: 100%;
     padding-top: 7em;
+}
 
+
+.home-banner1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #4ABDAC;
+    padding-top: 7em;
 }
 
 .home-banner-text-container {
@@ -25,10 +29,44 @@
     width: 40%;
 }
 
+.home-banner-text-container button {
+    background: #F7B733;
+    color: #DFDCE3;
+    margin-top: 2em;
+    padding: 1em 3em;
+    border-radius: 2em;
+    border:none;
+    box-shadow: none;
+}
+
 .home-picture-container {
     width: 40%;
 }
 
 .home-picture-container img {
     width: 100%;
+}
+
+.home-banner2 {
+    display: flex;
+    justify-content: space-around;
+
+    background: #4ABDAC;
+    width: 100%;
+    padding-top: 7em;
+}
+
+.about-banner {
+    display: flex;
+    justify-content: space-around;
+
+    /* background-image: url(), rgba(255,255,255,0.5); */
+    background:
+    linear-gradient(rgba(255,255,255,0.5),
+     rgba(255,255,255,0.5)), 
+     url(/white-background.jpg);
+
+    height: 90vh;
+    width: 100%;
+    padding-top: 7em;
 }
