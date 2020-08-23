@@ -1,0 +1,23 @@
+.navbar {
+    height: 4em;
+    background: #4ABDAC;
+    color: #DFDCE3;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.777em;
+    font-weight: bold;
+
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 2fr 2fr;
+    padding-top: 2em;
+    min-width: 100%;;
+    
+    position: fixed;
+
+    border-bottom:  #DFDCE3 5px solid;
+}
+
+.Nav-container {
+
+}
+

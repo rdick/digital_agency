@@ -1,0 +1,34 @@
+.home-page {
+    width: 100%;
+    padding-top: 15vh;
+
+}
+
+
+.home-banner {
+    display: flex;
+    justify-content: space-around;
+
+    background: #4ABDAC;
+    height: 90vh;
+    width: 100%;
+    padding-top: 7em;
+
+}
+
+.home-banner-text-container {
+    padding-top: 5em;
+    padding-left: 1em;
+    color: #DFDCE3;
+    font-weight: bolder;
+
+    width: 40%;
+}
+
+.home-picture-container {
+    width: 40%;
+}
+
+.home-picture-container img {
+    width: 100%;
+}
